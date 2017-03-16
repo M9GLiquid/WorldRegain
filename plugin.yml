@@ -1,0 +1,19 @@
+name: World-Regain
+main: eu.kingconquest.worldregain.Main
+load: POSTWORLD
+depend: []
+softdepend: []
+version: 0.0.1
+author: Thomas Lundqvist
+website: www.kingconquest.eu
+description: World Regenerator!
+
+commands:
+  worldregain:
+    description: Main Commmand
+    aliases: [wr, wregain, worldr]
+    permission: conquest.basic
+    permission-message: You need the permission "worldregain.basic" for this command
+    
+permissions:
+    
