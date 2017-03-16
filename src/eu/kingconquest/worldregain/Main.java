@@ -24,7 +24,7 @@ public class Main extends JavaPlugin implements Listener{
 		YmlStorage.load();
 		new Message(null, MessageType.CONSOLE, "&6|==============={Prefix}==============|");
 		new Message(null, MessageType.CONSOLE, "&6|&2 Version: " + getDescription().getVersion());
-		new Message(null, MessageType.CONSOLE, "&6|&2 Hooks:");
+		new Message(null, MessageType.CONSOLE, "&6|&2 Hooks: ");
 		//Hooks.output();
 		new Message(null, MessageType.CONSOLE, "&6|&2 Configs:");
 		YmlStorage.output();
