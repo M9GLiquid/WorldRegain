@@ -1,9 +1,9 @@
 name: World-Regain
 main: eu.kingconquest.worldregain.Main
 load: POSTWORLD
-depend: []
+depend: [Vault]
 softdepend: []
-version: 0.0.1
+version: 0.0.2
 author: Thomas Lundqvist
 website: www.kingconquest.eu
 description: World Regenerator!
